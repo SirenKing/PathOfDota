@@ -1,0 +1,82 @@
+"DOTAAbilities"
+{
+	"ability_base"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"0"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+	
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityOvershootCastRange"		"0"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastPoint"				"0"
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"0"
+		"AbilityDuration"				"0"
+		"AbilityCharges"				"0"
+		"AbilityChargeRestoreTime"		"0"
+		"AbilitySharedCooldown"			""
+		"AbilityDamage"					"0 0 0 0"
+		"AbilityManaCost"				"0"
+		"AbilityHealthCost"				"0"
+		"AbilityModifierSupportValue"	"1.0"	// for stats tracking.
+		"AbilityModifierSupportBonus"	"0"		// for stats tracking.
+		
+		// Item Info	
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemInitialCharges"			"0"
+		"ItemCombinable"				"1"
+		"ItemPermanent"					"1"
+		"ItemStackable"					"0"
+		"ItemRecipe"					"0"
+		"ItemDroppable"					"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemRequiresCharges"			"0"
+		"ItemKillable"					"1"
+		"ItemDisassemblable"			"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemDeclaresPurchase"			"0"
+        "ItemIsNeutralDrop"             "0"
+	}
+
+	"weak_creature"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/weak_creature"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		
+		"AbilityValues"
+		{
+			"damage_amp"					"-70"
+			"heal_amp"						"-70"
+			"mp_restore_amp"				"-70"
+		}
+	}
+	
+	"ability_chaos_cast"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/ability_chaos_cast"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"MaxLevel"						"1"
+		"AbilityCooldown"				"0"
+	}
+	
+	"ability_update_modifiers"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/ability_update_modifiers"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"MaxLevel"						"1"
+		"AbilityCooldown"				"0"
+	}
+}

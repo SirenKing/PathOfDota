@@ -1,0 +1,775 @@
+"DOTAAbilities"
+{
+	"item_ability_gem_nova" // growing ring around caster
+	{
+        "ID"							"1702"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_nova"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_spread" // random cast points around target location, originating from the caster
+	{
+        "ID"							"1703"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_spread"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_echo" // repeats, growing in size
+	{
+        "ID"							"1704"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_echo"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_worm" // repeats the spell at a growing distance, in a straight line, with growing radius
+	{
+        "ID"							"1705"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_worm"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_spiral" // repeats the spell in a growing spiral, around the caster
+	{
+        "ID"							"1706"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_spiral"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_storm_cast" // random cast points around target location, originating from random points around the caster's CURRENT LOCATION (updates location with each cast)
+	{
+        "ID"							"1707"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_storm"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_radius" // casts the spell four more times in a ring around the target location, all casting onto that same target location
+	{
+        "ID"							"1708"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_radius"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_persist" // cast the spell in a ring around the caster and FOLLOWS the caster for the duration
+	{
+        "ID"							"1709"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_persist"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_totem" // An invulnerable totem continues to cast a spell whenever able, for the duration
+	{
+        "ID"							"1710"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_totem"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_potency"
+	{
+        "ID"							"1712"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_potency"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_duration" // improves the duration of affects on a given ability
+	{
+        "ID"							"1713"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_duration"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_brutality" // increases crit damage
+	{
+        "ID"							"1714"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_brutality"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_swiftness" // 1.5x 'damage' and 'speed' affects of a given ability, but 0.5x the duration
+	{
+        "ID"							"1715"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_swiftness"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_bouncy" // increases bounce count of abilities and gives them bonus damage based on the maximum bounce count
+	{
+        "ID"							"1716"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_bouncy"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_epicenter" // deals extra damage based on how close an enemy is to the center of the ability's AoE
+	{
+        "ID"							"1717"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_epicenter"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_interval" // point-target spells with a cast range also grant flying vision at the cast point for a duration
+	{
+        "ID"							"1718"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_interval"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_bide" // doubles cooldown and increases spell damage by 50%
+	{
+        "ID"							"1719"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_bide"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_blood_magic" // causes a spell to cost health instead of mana, and grants 1.5x the damage. Only works for a abilities that cost mana
+	{
+        "ID"							"1720"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_blood_magic"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_purity" // converts a spell's damage to pure damage type
+	{
+        "ID"							"1721"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_purity"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_static" // grants a chance to cast lvl 1 arc lightning whenever this ability deals damage
+	{
+        "ID"							"1722"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_static"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+	"item_ability_gem_" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1723"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_null"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+  		"ItemAliases"					"support, Scouring Stone, Scour"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+
+
+
+	////////////////// START 'BETTER' GEMS ///////////////
+
+	"item_ability_gem_luck" // improves the luck of a given ability
+	{
+        "ID"							"1711"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_luck"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_castoncrit" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1724"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_castoncrit"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_focus" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1725"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_focus"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_chain" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1726"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_chain"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_crit_damage" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1727"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_crit_damage"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_empower" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1728"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_empower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_enlighten" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1729"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_enlighten"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_epicenter" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1730"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_epicenter"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_herald_of_thunder" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1731"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_herald_of_thunder"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_increased_aoe" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1732"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_increased_aoe"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_lifetap" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1733"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_lifetap"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_point_blank" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1735"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_point_blank"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_second_wind" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1736"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_second_wind"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_swift_affliction" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1737"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_swift_affliction"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_trauma" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1738"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_trauma"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_phys_to_pure" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1739"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_phys_to_pure"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_conc_aoe" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1740"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_conc_aoe"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_flagellation" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1741"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_flagellation"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_gravity" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1742"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_gravity"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_velocity"
+	{
+        "ID"							"1743"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_velocity"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_vortex" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1744"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_vortex"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_vengeance" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1745"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_vengeance"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_phantom_blade" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1746"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_phantom_blade"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_divine_shield" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1747"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_divine_shield"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_infernal_legion" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1748"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_infernal_legion"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_apprentice" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1749"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_apprentice"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+	
+	"item_ability_gem_bounce" // because it has no suffix, this effectively scours the gem slot
+	{
+        "ID"							"1749"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+        "AbilityTextureName"            "ability_gem_bounce"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
+
+        "ItemCost"						"1"
+        "ItemPurchasable"				"0"
+		"ItemSellable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+	}
+}

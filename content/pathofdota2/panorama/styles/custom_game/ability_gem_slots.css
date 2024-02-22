@@ -1,0 +1,46 @@
+.empty {
+  /* background-image: url('file://{images}/items/ability_gem_nova.png');
+  background-image: url('file://{images}/items/ability_gem_echo.png');
+  background-image: url('file://{images}/items/ability_gem_worm.png');
+  background-image: url('file://{images}/items/ability_gem_spiral.png');
+  background-image: url('file://{images}/items/ability_gem_potency.png');
+  background-image: url('file://{images}/items/ability_gem_duration.png');
+  background-image: url('file://{images}/items/ability_gem_brutality.png');
+  background-image: url('file://{images}/items/ability_gem_swiftness.png');
+  background-image: url('file://{images}/items/ability_gem_bouncy.png');
+  background-image: url('file://{images}/items/ability_gem_epicenter.png');
+  background-image: url('file://{images}/items/ability_gem_interval.png');
+  background-image: url('file://{images}/items/ability_gem_bide.png');
+  background-image: url('file://{images}/items/ability_gem_blood_magic.png');
+  background-image: url('file://{images}/items/ability_gem_static.png');
+  background-image: url('file://{images}/items/ability_gem_radius.png'); */
+  
+  background-image: url('file://{images}/items/ability_gem_storm_cast.png');
+  background-image: url('file://{images}/items/ability_gem_luck.png');
+  background-image: url('file://{images}/items/ability_gem_lifetap.png');
+  background-image: url('file://{images}/items/ability_gem_castoncrit.png');
+  background-image: url('file://{images}/items/ability_gem_focus.png');
+  background-image: url('file://{images}/items/ability_gem_conc_aoe.png');
+  background-image: url('file://{images}/items/ability_gem_increased_aoe.png');
+  background-image: url('file://{images}/items/ability_gem_gravity.png');
+  background-image: url('file://{images}/items/ability_gem_crit_damage.png');
+  background-image: url('file://{images}/items/ability_gem_flagellation.png');
+  background-image: url('file://{images}/items/ability_gem_velocity.png');
+  background-image: url('file://{images}/items/ability_gem_vengeance.png');
+  background-image: url('file://{images}/items/ability_gem_enlighten.png');
+  background-image: url('file://{images}/items/ability_gem_empower.png');
+  background-image: url('file://{images}/items/ability_gem_chain.png');
+  background-image: url('file://{images}/items/ability_gem_vortex.png');
+  background-image: url('file://{images}/items/ability_gem_second_wind.png');
+  background-image: url('file://{images}/items/ability_gem_phantom_blade.png');
+  background-image: url('file://{images}/items/ability_gem_infernal_legion.png');
+  background-image: url('file://{images}/items/ability_gem_apprentice.png');
+  background-image: url('file://{images}/items/ability_gem_spread.png');
+  background-image: url('file://{images}/items/ability_gem_bounce.png');
+
+  
+  /* background-image: url('file://{images}/items/ability_gem_crosshairs.png');
+  background-image: url('file://{images}/items/ability_gem_persist.png');
+  background-image: url('file://{images}/items/ability_gem_totem.png');
+  background-image: url('file://{images}/items/ability_gem_purity.png'); */
+}

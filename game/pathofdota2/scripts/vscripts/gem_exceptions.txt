@@ -1,0 +1,126 @@
+"gem_exceptions"
+{
+    "no_castoncrit"
+    {
+        "huskar_life_break" = false
+        "axe_battle_hunger" = false
+    }
+
+    "no_apprentice"
+    {
+        "chen_holy_persuasion" = false
+        "zuus_thundergods_wrath" = false
+        "silencer_global_silence" = false
+        "furion_wrath_of_nature" = false
+        "bounty_hunter_shuriken_toss" = false
+        "monkey_king_wukongs_command" = false
+        "monkey_king_mischief" = false
+        "monkey_king_untransform" = false
+    }
+
+    "no_second_wind"
+    {
+        "ember_spirit_sleight_of_fist" = false
+    }
+
+    "no_vortex"
+    {
+    }
+
+    "no_phantom_blade"
+    {
+        "batrider_sticky_napalm" = false
+    }
+
+    "no_gravity"
+    {
+        "sven_warcry" = false
+        "lycan_howl" = false
+        "bristleback_quill_spray" = false
+    }
+
+    "no_storm_cast"
+    {
+        "beastmaster_call_of_the_wild_boar" = false
+        "beastmaster_call_of_the_wild_hawk" = false
+        "clinkz_burning_army" = false
+        "clinkz_wind_walk" = false
+        "juggernaut_healing_ward" = false
+        "lich_ice_spire" = false
+        "gyrocopter_homing_missile" = false
+        "keeper_of_the_light_will_o_wisp" = false
+        "phoenix_supernova" = false
+        "pugna_nether_ward" = false
+        "shadow_shaman_mass_serpent_ward" = false
+        "shadow_shaman_shackles" = false
+        "venomancer_plague_ward" = false
+        "techies_land_mines" = false
+        "undying_tombstone" = false
+        "brewmaster_primal_split" = false
+        "visage_summon_familiars" = false
+        "lone_druid_spirit_bear" = false
+        "weaver_the_swarm" = false
+        "grimstroke_ink_creature" = false
+        "broodmother_spawn_spiderlings" = false
+        "enigma_malefice" = false
+        "enigma_demonic_conversion" = false
+        "lycan_summon_wolves" = false
+        "invoker_forge_spirit" = false
+        "treant_natures_grasp" = false
+        "skeleton_king_vampiric_aura" = false
+        "warlock_rain_of_chaos" = false
+        "rattletrap_power_cogs" = false
+        "tidehunter_dead_in_the_water" = false
+        "zuus_thundergods_wrath" = false
+        "furion_force_of_nature" = false
+        "furion_wrath_of_nature" = false
+        "monkey_king_wukongs_command" = false
+        "monkey_king_mischief" = false
+        "monkey_king_untransform" = false
+    }
+
+    "infernal_legion_unit_string_match"
+    {
+        "beastmaster_call_of_the_wild_boar" = "beastmaster_boar"
+        "beastmaster_call_of_the_wild_hawk" = "beastmaster_hawk"
+        "clinkz_burning_army" = "skeleton_archer"
+        "clinkz_wind_walk" = "skeleton_archer"
+        "juggernaut_healing_ward" = "healing_ward"
+        "lich_ice_spire" = "ice_spire"
+        "gyrocopter_homing_missile" = "homing_missile"
+        "keeper_of_the_light_will_o_wisp" = "npc_dota_ignis_fatuus"
+        "phoenix_supernova" = "phoenix_sun"
+        "pugna_nether_ward" = "nether_ward"
+        "shadow_shaman_mass_serpent_ward" = "shadow_shaman_ward"
+        "shadow_shaman_shackles" = "shadow_shaman_ward"
+        "venomancer_venomous_gale" = "venomancer_plague_ward"
+        "venomancer_plague_ward" = "venomancer_plague_ward"
+        "techies_land_mines" = "land_mine"
+        "undying_tombstone" = "undying_zombie"
+        "brewmaster_primal_split" = "npc_dota_brewmaster"
+        "visage_summon_familiars" = "visage_familiar"
+        "lone_druid_spirit_bear" = "spirit_bear"
+        "weaver_the_swarm" = "weaver_swarm"
+        "grimstroke_ink_creature" = "ink_creature"
+        "broodmother_spawn_spiderlings" = "broodmother_spiderling"
+        "enigma_malefice" = "_eidolon"
+        "enigma_demonic_conversion" = "_eidolon"
+        "lycan_summon_wolves" = "lycan_wolf"
+        "invoker_forge_spirit" = "invoker_forged_spirit"
+        "treant_natures_grasp" = "furion_treant"
+        "skeleton_king_vampiric_aura" = "skeleton_warrior"
+        "warlock_rain_of_chaos" = "warlock_golem"
+        "rattletrap_power_cogs" = "rattletrap_cog"
+        "tidehunter_dead_in_the_water" = "tidehunter_anchor"
+    }
+
+    "no_give_modifier"
+    {
+        "modifier_weak_creature" = true
+        "XPModifier" = true
+        "modifier_razor_static_link" = true
+        "modifier_ember_spirit_sleight_of_fist_caster" = true
+        "modifier_ember_spirit_sleight_of_fist_caster_invulnerability" = true
+    }
+}
+

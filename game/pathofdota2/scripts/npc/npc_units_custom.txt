@@ -1,0 +1,48 @@
+// Units File
+#base npc_units_abrahamblinkin.txt
+"DOTAUnits"
+{
+	// Outpost modifier_watch_tower
+
+	"npc_dota_watch_tower" {
+
+		//	"VisionDaytimeRange"		"1400"		// Range of vision during day light.
+		//	"VisionNighttimeRange"		"1400"		// Range of vision at night time.
+		"StartingTime" 					"600"
+		"ExperienceInterval" 			"300"
+		"TruesightRadius" 				"500"
+		"CaptureDistance" 				"400"
+		"CaptureTime" 					"6"
+		"ExtraExperiencePM"				"18"
+	}
+
+	"npc_dota_creep_badguys_ranged"
+	{
+	   	"vscripts"                  "ai/apprentice_ai.lua"
+	}
+
+	"npc_dota_creep_badguys_ranged_upgraded"
+	{
+	   	"vscripts"                  "ai/apprentice_ai.lua"
+	}
+
+	"npc_dota_creep_badguys_ranged_upgraded_mega"
+	{
+	   	"vscripts"                  "ai/apprentice_ai.lua"
+	}	
+
+	"npc_dota_creep_goodguys_ranged"
+	{
+	   	"vscripts"                  "ai/apprentice_ai.lua"
+	}
+
+	"npc_dota_creep_goodguys_ranged_upgraded"
+	{
+	   	"vscripts"                  "ai/apprentice_ai.lua"
+	}	
+
+	"npc_dota_creep_goodguys_ranged_upgraded_mega"
+	{
+	   	"vscripts"                  "ai/apprentice_ai.lua"
+	}	
+}
